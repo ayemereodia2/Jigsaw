@@ -13,14 +13,13 @@
 		E775731B2BDEA16700382852 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E775731A2BDEA16700382852 /* GameView.swift */; };
 		E775731D2BDEA62400382852 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E775731C2BDEA62400382852 /* MenuView.swift */; };
 		E7E4F1D02BD32868006A38B7 /* JigsawApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E4F1CF2BD32868006A38B7 /* JigsawApp.swift */; };
-		E7E4F1D22BD32868006A38B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E4F1D12BD32868006A38B7 /* ContentView.swift */; };
+		E7E4F1D22BD32868006A38B7 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E4F1D12BD32868006A38B7 /* BoardView.swift */; };
 		E7E4F1D42BD32869006A38B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E4F1D32BD32869006A38B7 /* Assets.xcassets */; };
 		E7E4F1D72BD32869006A38B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E4F1D62BD32869006A38B7 /* Preview Assets.xcassets */; };
 		E7E4F1E12BD32869006A38B7 /* JigsawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E4F1E02BD32869006A38B7 /* JigsawTests.swift */; };
 		E7E4F1EB2BD32869006A38B7 /* JigsawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E4F1EA2BD32869006A38B7 /* JigsawUITests.swift */; };
 		E7E4F1ED2BD32869006A38B7 /* JigsawUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E4F1EC2BD32869006A38B7 /* JigsawUITestsLaunchTests.swift */; };
 		E7E4F1FB2BD35970006A38B7 /* black-woman-smiling.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E4F1FA2BD35970006A38B7 /* black-woman-smiling.png */; };
-		E7E4F1FD2BD497A6006A38B7 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E4F1FC2BD497A6006A38B7 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,7 @@
 		E775731C2BDEA62400382852 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		E7E4F1CC2BD32868006A38B7 /* Jigsaw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jigsaw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E4F1CF2BD32868006A38B7 /* JigsawApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JigsawApp.swift; sourceTree = "<group>"; };
-		E7E4F1D12BD32868006A38B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E7E4F1D12BD32868006A38B7 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 		E7E4F1D32BD32869006A38B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7E4F1D62BD32869006A38B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E7E4F1DC2BD32869006A38B7 /* JigsawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JigsawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,7 +56,6 @@
 		E7E4F1EA2BD32869006A38B7 /* JigsawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JigsawUITests.swift; sourceTree = "<group>"; };
 		E7E4F1EC2BD32869006A38B7 /* JigsawUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JigsawUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E7E4F1FA2BD35970006A38B7 /* black-woman-smiling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-woman-smiling.png"; sourceTree = "<group>"; };
-		E7E4F1FC2BD497A6006A38B7 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,10 +108,9 @@
 			children = (
 				E7E4F1FA2BD35970006A38B7 /* black-woman-smiling.png */,
 				E7E4F1CF2BD32868006A38B7 /* JigsawApp.swift */,
-				E7E4F1D12BD32868006A38B7 /* ContentView.swift */,
+				E7E4F1D12BD32868006A38B7 /* BoardView.swift */,
 				E7E4F1D32BD32869006A38B7 /* Assets.xcassets */,
 				E7E4F1D52BD32869006A38B7 /* Preview Content */,
-				E7E4F1FC2BD497A6006A38B7 /* TestView.swift */,
 				E77573142BDE9CD800382852 /* BoardViewModel.swift */,
 				E77573162BDEA04D00382852 /* ImageManager.swift */,
 				E77573182BDEA0E900382852 /* UnitView.swift */,
@@ -281,9 +278,8 @@
 			files = (
 				E77573192BDEA0E900382852 /* UnitView.swift in Sources */,
 				E775731D2BDEA62400382852 /* MenuView.swift in Sources */,
-				E7E4F1FD2BD497A6006A38B7 /* TestView.swift in Sources */,
 				E77573172BDEA04D00382852 /* ImageManager.swift in Sources */,
-				E7E4F1D22BD32868006A38B7 /* ContentView.swift in Sources */,
+				E7E4F1D22BD32868006A38B7 /* BoardView.swift in Sources */,
 				E7E4F1D02BD32868006A38B7 /* JigsawApp.swift in Sources */,
 				E77573152BDE9CD800382852 /* BoardViewModel.swift in Sources */,
 				E775731B2BDEA16700382852 /* GameView.swift in Sources */,
